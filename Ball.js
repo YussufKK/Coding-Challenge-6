@@ -34,6 +34,7 @@ const ctx = canvas.getContext('2d');
 
 const ball = new Ball(200, 160, 20, 2, 2, 'red');
 
+
 setInterval(() => {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ball.update(canvas);
